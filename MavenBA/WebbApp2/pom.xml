@@ -29,6 +29,14 @@
   </dependencies>
 
   <build>
+    <resources>
+      <resource>
+        <directory>"resources"</directory>
+        <includes>
+          <include>"OctoThulu.jpg"</include>
+        </includes>
+      </resource>
+    </resources>
     <finalName>WebbApp2</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
